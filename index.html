@@ -2,65 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Howell TechNow</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f4;
-      color: #333;
+      background: #ffffff;
+      color: #333333;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
     header {
-      background: #007acc;
-      color: white;
+      background: #f0f8ff;
       padding: 2rem;
       text-align: center;
     }
     header h1 {
       margin: 0;
+      color: #007acc;
+      font-size: 2.5rem;
     }
     header p {
       margin: 0.5rem 0 0;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
+      color: #555555;
     }
-    nav {
-      background: #005a9c;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-    }
-    nav a {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s ease;
-    }
-    nav a:hover {
-      color: #cce7ff;
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
     }
     main {
       padding: 2rem;
       max-width: 800px;
       margin: auto;
-    }
-    .card {
-      background: #ffffff;
-      padding: 1rem 2rem;
-      margin: 1rem 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .card h2 {
-      color: #007acc;
-    }
-    footer {
-      background: #005a9c;
-      color: #cce7ff;
-      text-align: center;
-      padding: 1rem;
     }
     .promo {
       background: #00b16a;
@@ -71,38 +48,60 @@
       font-weight: bold;
       text-align: center;
     }
+    .card {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      color: #007acc;
+      margin-top: 0;
+    }
+    footer {
+      background: #f0f8ff;
+      color: #555555;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Howell TechNow</h1>
-    <p>Student tech services by a Brookdale College student – $20 flat rate + parts if needed</p>
+    <p>Affordable Tech Support by a Brookdale College Student</p>
   </header>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </nav>
+  <img src="https://www.istockphoto.com/photo/modern-laptop-on-white-background-gm1173559340-326971497" alt="Close-up of a modern laptop" class="hero-image" />
   <main>
     <div class="promo">
-      🎉 Special Deal: First 5 jobs are FREE in exchange for honest reviews! <br/>
-      Spots left: 5
+      🎉 Special Offer: First 5 Jobs FREE in Exchange for Honest Reviews!<br/>
+      Spots Left: 5
     </div>
     <div class="card">
       <h2>About Me</h2>
-      <p>Hi! I’m a student at Brookdale College offering affordable tech support. My goal is to help you fix your devices without breaking the bank – only $20 flat rate + parts if needed.</p>
+      <p>Hello! I'm a student at Brookdale College offering affordable tech support services. My goal is to help you keep your devices running smoothly without breaking the bank. I charge a flat rate of $20 per job, plus the cost of any necessary parts.</p>
     </div>
     <div class="card">
-      <h2>Services</h2>
+      <h2>Services Offered</h2>
       <ul>
-        <li>Check password strength and security</li>
-        <li>Clean up and optimize devices</li>
-        <li>General troubleshooting and tech help</li>
+        <li>Assessing password strength and enhancing security</li>
+        <li>Cleaning and optimizing devices for better performance</li>
+        <li>General troubleshooting and technical assistance</li>
       </ul>
     </div>
     <div class="card">
       <h2>Why Choose Me?</h2>
-      <p>As a student, I understand the value of reliable and budget-friendly tech help. I’m here to make sure your devices run their best.</p>
+      <p>As a dedicated student, I bring enthusiasm and up-to-date knowledge to every job. I understand the importance of reliable and cost-effective tech support, and I'm committed to providing top-notch service to my community.</p>
     </div>
   </main>
   <footer>
